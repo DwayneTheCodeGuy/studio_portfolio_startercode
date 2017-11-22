@@ -1,25 +1,132 @@
 /* Nav Bar CSS */
 
 
-/* Header CSS */
+.navbar {
+    max-width: 100%;
+}
 
+.profile-pic {
+    border-radius: 50%;
+    margin: 0 auto;
+    transition-duration: 2s;
+} 
+
+.profile-pic:hover {
+    transform: scale(2);
+    transition-duration: 2s;
+}
+
+.banner {
+    margin-top: 50px;
+    background: url("../images/andrea-cau-51160.jpg") bottom;
+    background-size: cover;
+    height: 500px;
+    padding: 100px 0;
+    color: #273746;
+    /*color: red;*/
+}
+
+.header {
+    background-color: #2C3E50;
+}
+nav a {
+    color: #fff;
+}
+
+.link-name:hover {
+    color: #fff;
+}
+/* Header CSS */
 
 
 /* Section CSS */
 
+.rows {
+    border: 1px solid black;
+}
+
+.section-name {
+    margin-top: 50px;
+}
+
+#portfolio-data {
+    width: 80%;
+    margin: 0 auto;
+    padding: 25px 20px;
+    border-top: 1px solid black;
+}
+
+.project {
+    /*width: 100px;*/
+    text-align: center;
+    height: 300px;
+    /*padding: 25px 2px;*/
+}
+
+.link-button {
+    display: flex;
+    width: 45%;
+    margin-top: 15px;
+}
+
+@media (min-width: 486px) and (max-width: 991px) {
+    .link-button {
+        display: flex;
+        width: 100%;
+        margin-top: 15px;
+    }
+    
+    .project-row-2 {
+        margin-top: 100px;
+    }
+}
 
 
 /* About Section CSS */
 
+.section {
+    margin-top: 100px;
+    padding: 100px 0;
+    background-color: #3498DB;
+}
 
+.about-section p {
+    padding: 0px 150px;
+}
+
+.adjust {
+    width: 10%;
+    height: 40px;
+}
 
 /* Portfolio Item CSS */
 
+#contact {
+    margin-top: -100px;
+    padding: 100px 0;
+    /*background-color: #3498DB;*/
+    background-color: green;
+    width: 100%;
+}
 
 
 /* Footer CSS */
 
+.footer-above {
+    background-color: #34495E;
+    padding: 50px 0;
+    color: #fff;
+}
 
+.footer-below {
+    background-color: #2E4053;
+    padding: 30px 0;
+    color: #fff;
+}
 
 /* Button CSS */
+
+.btn a {
+    color: #fff;
+}
 
